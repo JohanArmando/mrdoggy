@@ -45,7 +45,7 @@ module.exports = StyleSheet.create({
   },
 
   divider: {
-    height: 2,
+    height: 1,
     overflow: 'hidden',
     backgroundColor: '#e0e0e0'
   }
