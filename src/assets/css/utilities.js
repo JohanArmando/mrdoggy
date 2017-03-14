@@ -10,23 +10,23 @@ module.exports = StyleSheet.create({
   mN: {
     margin: 0
   },
-  mTn: {
+  mtN: {
     marginTop: 0
   },
-  mRn: {
+  mrN: {
     marginRight: 0
   },
-  mBn: {
+  mbN: {
     marginBottom: 0
   },
-  mLn: {
+  mlN: {
     marginLeft: 0 
   },
 
   m: {
     margin: 20
   },
-  mT: {
+  mt: {
     marginTop:  20
   },
   mr: {
@@ -38,7 +38,12 @@ module.exports = StyleSheet.create({
   ml: {
     marginLeft:  20
   }, 
-   
+
+  /* Text Transforms*/
+  bold: {
+    fontWeight: 'bold'
+  },
+
   divider: {
     height: 2,
     overflow: 'hidden',
