@@ -10,7 +10,10 @@ module.exports = StyleSheet.create({
     flex: 1,
     justifyContent: 'space-around',
     alignItems: 'center',
-    backgroundColor: '#00a79d',
+    width: null,
+    height: null,
+    backgroundColor: 'rgba(0,0,0,0)',
+    resizeMode: 'stretch'
   }
 
 });

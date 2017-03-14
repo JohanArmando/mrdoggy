@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';  
 import {
-  StyleSheet,
+  View,  
   Text,
-  View,
-  Button,
-  Alert,
-  Image
+  StyleSheet,
+  DrawerLayoutAndroid,
+  ToolbarAndroid
 } from 'react-native';
-import { Actions } from 'react-native-router-flux';
 
-var styles = require('./home');
+import DrawerLayout from './../DrawerLayout/DrawerLayout'
 
-export default class Home extends Component {
+export default class Home extends Component {  
   render() {
     return (
-      <View style={styles.container}>
-        <Text> asd </Text>
-      </View>
-    );
+      <DrawerLayout>
+        <View>
+          <Text> Welcome User </Text>
+        </View>
+      </DrawerLayout>
+    )   
   }
 }
