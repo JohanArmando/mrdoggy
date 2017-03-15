@@ -7,7 +7,9 @@ import {
   DrawerLayoutAndroid
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import Icon from 'react-native-vector-icons/MaterialIcons'
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
+import Toolbar from './../Toolbar/Toolbar';
 
 var styles = require('./drawerLayout');
 var utilities = require('./../../assets/css/utilities');
@@ -46,11 +48,20 @@ export default class DrawerLayout extends Component {
     );
     return (
       <DrawerLayoutAndroid
+        ref={'DRAWER'}
         drawerWidth={300}
         drawerPosition={DrawerLayoutAndroid.positions.Left}
         renderNavigationView={() => navigationView}>
         {this.props.children}
+        <Toolbar style={styles.toolbar}
+          title={'Mr. Doggy'}
+          sidebarRef={()=>this._setDrawer()}/>
+
       </DrawerLayoutAndroid>
     )
   }
+
+  _setDrawer() {
+    this.refs['DRAWER'].openDrawer();
+  }  
 }

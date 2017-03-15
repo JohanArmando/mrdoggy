@@ -7,15 +7,14 @@ import {
   ToolbarAndroid
 } from 'react-native';
 
-import DrawerLayout from './../DrawerLayout/DrawerLayout'
+import DrawerLayout from './../DrawerLayout/DrawerLayout';
+import Toolbar from './../Toolbar/Toolbar';
 
 export default class Home extends Component {  
   render() {
     return (
       <DrawerLayout>
-        <View>
-          <Text> Welcome User </Text>
-        </View>
+        <Text>asd</Text>
       </DrawerLayout>
     )   
   }
