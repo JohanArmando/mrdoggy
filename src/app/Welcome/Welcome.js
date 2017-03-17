@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
-var styles = require('./welcome');
+var styles = require('./welcomeStyles');
 
 export default class Welcome extends Component {
   render() {

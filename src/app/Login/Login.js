@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
-var styles = require('./login');
+var styles = require('./loginStyles');
 
 export default class Home extends Component {
 
