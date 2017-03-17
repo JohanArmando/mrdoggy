@@ -23,8 +23,8 @@ export default class DrawerLayout extends Component {
             <View style={[styles.avatar]}>
               <Image style={styles.img}source={require('../../../src/assets/images/avatar.png')} />
             </View> 
-            <Text style={[utilities.mt, utilities.bold]}>Viviannys Díaz</Text>
-            <Text style={[]}>viviannysdiazv@gmail.com</Text>
+            <Text style={[utilities.mt, utilities.bold]}>Jonh Doe</Text>
+            <Text style={[]}>user@user.com</Text>
           </View>        
         </View>
         <View style={[styles.menuItem, utilities.mt]}>

@@ -16,8 +16,7 @@ import Home from './Home/Home';
 
 export default class MrDoggy extends Component {
   render() {
-    return 
-    <Router>
+    return <Router>
       <Scene key="root">
         <Scene key="Welcome" component={Welcome} initial={true} title="Welcome" hideNavBar='true'/>        
         <Scene key="login" component={Login} title="Login" />

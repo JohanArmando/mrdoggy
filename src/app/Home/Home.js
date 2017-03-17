@@ -14,7 +14,7 @@ export default class Home extends Component {
   render() {
     return (
       <DrawerLayout>
-        <Text>asd</Text>
+       
       </DrawerLayout>
     )   
   }
